@@ -1,0 +1,1 @@
+¡Efecto acordeón con JavaScript!

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efecto acordeón con javascript</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <script type="text/javascript" src="js/j.js" ></script>
+
+</head>
+<body >
+
+    <img src="imagenes/b.jpg">
+
+    <div id="contenedor">
+
+        <p id="titulo">FAQs</p>
+
+        <button  onclick="cambio(this)" value="0" >
+            <p class="pregunta"> ¿Cuál es el horario de atención al cliente?</p>
+            <img class="simbolo" src="imagenes/s1.png">
+        </button>
+        <p class="oculto"> Nuestro horario de atención al cliente es de lunes a viernes de 9:00 a.m. a 5:00 p.m. Si necesitas ayuda fuera de este horario, no dudes en dejarnos un mensaje y te responderemos tan pronto como sea posible.</p>
+
+        <button  onclick="cambio(this)" value="0" >
+            <p class="pregunta"> ¿Cuáles son los métodos de pago aceptados?</p>
+            <img class="simbolo" src="imagenes/s1.png">
+        </button>
+        <p class="oculto">Aceptamos pagos con tarjeta de crédito/débito (Visa, Mastercard, American Express) y PayPal. También ofrecemos la opción de pago en efectivo en nuestra tienda física.</p>
+
+        <button  onclick="cambio(this)" value="0" >
+            <p class="pregunta">¿Cuál es su política de devoluciones?</p>
+            <img class="simbolo" src="imagenes/s1.png">
+        </button>
+        <p class="oculto"> Nuestra política de devoluciones permite devolver los productos en su estado original dentro de los 30 días posteriores a la compra para un reembolso completo. Por favor, asegúrate de conservar el recibo de compra. Para más detalles, consulta nuestra página de políticas de devolución.</p>
+
+    </div>
+
+</body>
+
+
+
+</html>
